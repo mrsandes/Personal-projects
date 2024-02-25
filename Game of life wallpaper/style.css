@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.corner-button {
+    background-color: #565656b1;
+    border: none;
+    position: absolute;
+    border-radius: 4px;
+    color: #b8b8b860;
+}
+
+#button1 {
+    top: 5px;
+    left: 5px;
+}
+
+#button2 {
+    top: 5px;
+    left: 80px;
+}
+
+#button3 {
+    top: 5px;
+    left: 125px;
+}
