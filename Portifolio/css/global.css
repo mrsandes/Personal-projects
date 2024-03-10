@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    color: #141414;
+    font-family: Arial;
+}
+
+.header,
+.introducao,
+.experiencia,
+.formacao,
+.footer {
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+strong {
+    color: #141414;
+}
