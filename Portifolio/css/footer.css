@@ -12,7 +12,7 @@
 }
 
 .footer-texto {
-    color:#a3a3a3;
+    color: #a3a3a3;
     font-size: 1.25rem;
     line-height: 1.3;
 }
@@ -24,11 +24,13 @@
 }
 
 .footer-contato a {
+    border-bottom: 0.0625rem solid greenyellow;
     color: white;
+    text-decoration: none;
 }
 
 .footer-copy {
-    color:#a3a3a3;
+    color: #a3a3a3;
 }
 
 @media (max-width: 75rem) {

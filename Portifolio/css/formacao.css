@@ -115,11 +115,15 @@
 }
 
 .cursos h3::before {
-    background: url(../img/awards.svg) no-repeat center/cover;
+    background: url(../img/book.svg) no-repeat center/cover;
 }
 
 .idiomas h3::before {
     background: url(../img/language.svg) no-repeat center/cover;
+}
+
+.premios h3::before {
+    background: url(../img/awards.svg) no-repeat center/cover;
 }
 
 .cursos {
@@ -146,7 +150,7 @@
     }
 }
 
-@media (max-width: 50rem) {  
+@media (max-width: 50rem) {
     .faculdade-lista {
         grid-template-columns: 1fr;
     }
@@ -207,6 +211,16 @@
     }
 
     .idiomas li {
+        margin-bottom: 0.625rem;
+        font-size: 0.75rem;
+    }
+
+    .premios h3 {
+        margin-bottom: 0.625rem;
+        font-size: 0.75rem;
+    }
+
+    .premios li {
         margin-bottom: 0.625rem;
         font-size: 0.75rem;
     }

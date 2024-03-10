@@ -24,6 +24,12 @@
     content: "";
 }
 
+.introducao h1 a {
+    border-bottom: 0.1875rem solid greenyellow;
+    color: inherit;
+    text-decoration: none;
+}
+
 .introducao p {
     color: grey;
     font-size: 1.5rem;
